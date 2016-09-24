@@ -1,5 +1,5 @@
 module CCogl [system] {
-	header "pango_bridging.h"
+	header "cogl_bridging.h"
 
 	link "cogl"
         link "cogl-path"
