@@ -12,4 +12,6 @@ struct Display{};
 #define COGL_ENABLE_EXPERIMENTAL_API
 #define GLIB_DISABLE_DEPRECATION_WARNINGS
 #include <cogl/cogl.h>
+#ifndef __APPLE__
 #include <cogl/cogl-xlib.h>
+#endif
